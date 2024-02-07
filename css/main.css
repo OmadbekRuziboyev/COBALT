@@ -23,13 +23,25 @@ header nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 20px;
+}
+header nav .nav_left img {
+  transition: all 0.3s ease;
+}
+header nav .nav_left img:hover {
+  transform: scale(1.2);
 }
 header nav .nav_right {
   display: flex;
   align-items: center;
 }
 header nav .nav_right h2 {
+  transition: all 0.3s ease;
   color: gray;
+}
+header nav .nav_right h2:hover {
+  text-shadow: 0px 0px 40px white;
+  transform: scale(1.4);
 }
 header nav .nav_right button {
   padding: 10px 20px;
@@ -39,11 +51,17 @@ header nav .nav_right button {
   margin-left: 20px;
   color: white;
   position: relative;
+  transition: all 0.3s ease;
+}
+header nav .nav_right button:hover {
+  background-color: white;
+  box-shadow: 0px 0px 40px black;
+  color: black;
 }
 header nav .nav_right .btn_pos {
   position: absolute;
   margin-left: 90px;
-  top: 37px;
+  top: 57px;
   width: 100px;
 }
 
@@ -54,11 +72,19 @@ header nav .nav_right .btn_pos {
   color: white;
   font-size: 71.9px;
   margin-top: 100px;
+  transition: all 0.3s ease;
+}
+.hero .unl:hover {
+  transform: scale(1.1);
 }
 .hero .say {
   color: #A1A1AA;
   margin-top: 20px;
   font-size: 19.8px;
+  transition: all 0.3s ease;
+}
+.hero .say:hover {
+  transform: scale(1.1);
 }
 .hero .join {
   padding: 10px 20px;
@@ -67,12 +93,18 @@ header nav .nav_right .btn_pos {
   background-color: transparent;
   margin: 30px 0px;
   color: white;
+  transition: all 0.3s ease;
   position: relative;
+}
+.hero .join:hover {
+  background-color: white;
+  box-shadow: 0px 0px 40px black;
+  color: black;
 }
 .hero .btn_pos2 {
   position: absolute;
   margin-left: -12px;
-  top: 471px;
+  top: 511px;
   width: 100px;
 }
 .hero .learn {
@@ -80,14 +112,27 @@ header nav .nav_right .btn_pos {
   color: #A1A1AA;
   border: none;
   margin-bottom: 10px;
+  transition: all 0.3s ease;
+}
+.hero .learn:hover {
+  transform: scale(1.1);
 }
 .hero i {
   color: #A1A1AA;
+  transition: all 0.3s ease;
+}
+.hero i:hover {
+  transform: scale(1.5);
 }
 
 .full {
   margin-top: 100px;
   margin-bottom: 150px;
+  transition: all 0.3s ease;
+}
+.full:hover {
+  box-shadow: 0px 0px 50px white;
+  transform: scale(1.1);
 }
 
 .section_one {
@@ -98,10 +143,18 @@ header nav .nav_right .btn_pos {
 .section_one .sectionone_left h1 {
   color: white;
   font-size: 48.2px;
+  transition: all 0.3s ease;
+}
+.section_one .sectionone_left h1:hover {
+  transform: scale(1.1);
 }
 .section_one .sectionone_right p {
   color: rgba(161, 161, 170, 0.8);
   font-size: 17.9px;
+  transition: all 0.3s ease;
+}
+.section_one .sectionone_right p:hover {
+  transform: scale(1.1);
 }
 .section_one .sectionone_right p span {
   color: white;
@@ -114,11 +167,19 @@ header nav .nav_right .btn_pos {
 .section-two h1 {
   color: white;
   font-size: 48.2px;
+  transition: all 0.3s ease;
+}
+.section-two h1:hover {
+  transform: scale(1.1);
 }
 .section-two p {
   color: #A1A1AA;
   font-size: 17.9px;
   margin-top: 20px;
+  transition: all 0.3s ease;
+}
+.section-two p:hover {
+  transform: scale(1.1);
 }
 .section-two p span {
   color: white;
@@ -130,17 +191,23 @@ header nav .nav_right .btn_pos {
   width: 105%;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 30px;
   margin-bottom: 20px;
   margin-top: 50px;
+  flex-wrap: nowrap;
 }
 .section-three .card {
+  transition: all 0.3s ease;
   border: 2px solid white;
   border: none;
   padding: 20px;
   background-color: rgba(24, 24, 27, 0.5019607843);
   padding: 20px;
   border-radius: 20px;
+}
+.section-three .card:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 20px white;
 }
 .section-three .card .card_info h2 {
   color: white;
@@ -196,12 +263,17 @@ header nav .nav_right .btn_pos {
   gap: 30px;
 }
 .section_four .s4_cards .s4_card {
+  transition: all 0.3s ease;
   width: 592px;
   border-radius: 20px;
   padding: 20px;
   background-color: rgba(24, 24, 27, 0.5019607843);
   font-size: 13.9px;
   color: #A1A1AA;
+}
+.section_four .s4_cards .s4_card:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 20px white;
 }
 .section_four .s4_cards .s4_card h2 {
   color: white;
@@ -234,6 +306,98 @@ header nav .nav_right .btn_pos {
   margin-left: 20px;
   color: white;
   position: relative;
+  transition: all 0.3s ease;
+}
+.footer_info button:hover {
+  background-color: white;
+  box-shadow: 0px 0px 40px black;
+  color: black;
+}
+.footer_info button .section_one {
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0 auto;
+}
+.footer_info button .section_one p {
+  text-align: left;
+  margin-top: 20px;
+  font-size: 19px;
+}
+.footer_info button .section_one .sectionone_left h1 {
+  font-size: 29px;
+  text-align: left;
+}
+.footer_info button .section-two {
+  margin: 0 auto;
+  width: 90%;
+}
+.footer_info button .section-two h1 {
+  font-size: 29px;
+  margin-top: 150px;
+}
+.footer_info button .section-two p {
+  font-size: 19px;
+}
+.footer_info button .section-three .kards {
+  flex-wrap: wrap;
+  width: 70%;
+  margin: 0 auto;
+}
+.footer_info button .section-three .card img {
+  width: 320px;
+}
+.footer_info button .section-three .cards {
+  flex-wrap: wrap;
+}
+.footer_info button .section-three .cards .card {
+  margin-top: 10px;
+  width: 358px;
+  padding: 20px;
+}
+.footer_info button .section-three .cards .card img {
+  width: 320px;
+}
+.footer_info button .section-three .cards .card5 {
+  margin-top: -80px;
+}
+.footer_info button .section_four .container {
+  margin: 0 auto;
+  width: 90%;
+}
+.footer_info button .section_four .container .s4_info h2 {
+  font-size: 29px;
+}
+.footer_info button .section_four .container .s4_info p {
+  font-size: 19px;
+}
+.footer_info button .section_four .container .s4_cards {
+  width: 90%;
+  flex-wrap: wrap;
+}
+.footer_info button .section_four .container .s4_cards .s4_card {
+  margin-left: 30px;
+  width: 351px;
+  transition: all 0.3s ease;
+}
+.footer_info button .section_four .container .s4_cards .s4_card:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 20px white;
+}
+.footer_info button .section_four .container .s4_cards .s4_card img {
+  width: 90%;
+  width: 340px;
+}
+.footer_info button footer .container .nbt {
+  width: 150px;
+}
+.footer_info button footer .container .footer_info h1 {
+  font-size: 29px;
+}
+.footer_info button footer .container .footer_info p {
+  font-size: 19px;
+}
+.footer_info button footer .container .end {
+  display: none;
 }
 .footer_info img {
   position: absolute;
@@ -256,16 +420,31 @@ footer {
   color: #A1A1AA;
   margin: 15px 0px;
   font-size: 12.9px;
+  transition: all 0.3s ease;
+}
+.end .end_left h4:hover {
+  transform: scale(1.1);
 }
 .end .end_left p {
   color: #71717A;
   font-size: 13.1px;
   margin-bottom: 10px;
+  transition: all 0.3s ease;
+}
+.end .end_left p:hover {
+  transform: scale(1.1);
 }
 .end .end_right i {
   margin-top: 15px;
   color: white;
   margin-left: 15px;
+  transition: all 0.3s ease;
+  padding: 10px;
+  border-radius: 50%;
+}
+.end .end_right i:hover {
+  background-color: white;
+  color: black;
 }
 
 @media (max-width: 447px) {
@@ -310,89 +489,90 @@ footer {
   .hero .full {
     width: 90%;
   }
-}
-.section_one {
-  flex-wrap: wrap;
-  width: 90%;
-  margin: 0 auto;
-}
-.section_one p {
-  text-align: left;
-  margin-top: 20px;
-  font-size: 19px;
-}
-.section_one .sectionone_left h1 {
-  font-size: 29px;
-  text-align: left;
-}
-
-.section-two {
-  margin: 0 auto;
-  width: 90%;
-}
-.section-two h1 {
-  font-size: 29px;
-  margin-top: 150px;
-}
-.section-two p {
-  font-size: 19px;
-}
-
-.section-three .kards {
-  flex-wrap: wrap;
-  width: 70%;
-  margin: 0 auto;
-}
-.section-three .card img {
-  width: 320px;
-}
-.section-three .cards {
-  flex-wrap: wrap;
-}
-.section-three .cards .card {
-  margin-top: 10px;
-  width: 358px;
-  padding: 20px;
-}
-.section-three .cards .card img {
-  width: 320px;
-}
-.section-three .cards .card5 {
-  margin-top: -80px;
-}
-
-.section_four .container {
-  margin: 0 auto;
-  width: 90%;
-}
-.section_four .container .s4_info h2 {
-  font-size: 29px;
-}
-.section_four .container .s4_info p {
-  font-size: 19px;
-}
-.section_four .container .s4_cards {
-  width: 90%;
-  flex-wrap: wrap;
-}
-.section_four .container .s4_cards .s4_card {
-  margin-left: 30px;
-  width: 351px;
-}
-.section_four .container .s4_cards .s4_card img {
-  width: 90%;
-  width: 340px;
-}
-
-footer .container .nbt {
-  width: 150px;
-}
-footer .container .footer_info h1 {
-  font-size: 29px;
-}
-footer .container .footer_info p {
-  font-size: 19px;
-}
-footer .container .end {
-  display: none;
+  .section_one {
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .section_one p {
+    text-align: left;
+    margin-top: 20px;
+    font-size: 19px;
+  }
+  .section_one .sectionone_left h1 {
+    font-size: 29px;
+    text-align: left;
+  }
+  .section-two {
+    margin: 0 auto;
+    width: 90%;
+  }
+  .section-two h1 {
+    font-size: 29px;
+    margin-top: 150px;
+  }
+  .section-two p {
+    font-size: 19px;
+  }
+  .section-three .kards {
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 0 auto;
+  }
+  .section-three .card img {
+    width: 320px;
+  }
+  .section-three .cards {
+    flex-wrap: wrap;
+  }
+  .section-three .cards .card {
+    margin-top: 10px;
+    width: 358px;
+    padding: 20px;
+  }
+  .section-three .cards .card img {
+    width: 320px;
+  }
+  .section-three .cards .card5 {
+    margin-top: -80px;
+  }
+  .section_four .container {
+    margin: 0 auto;
+    width: 90%;
+  }
+  .section_four .container .s4_info h2 {
+    font-size: 29px;
+  }
+  .section_four .container .s4_info p {
+    font-size: 19px;
+  }
+  .section_four .container .s4_cards {
+    width: 90%;
+    flex-wrap: wrap;
+  }
+  .section_four .container .s4_cards .s4_card {
+    margin-left: 30px;
+    width: 351px;
+    transition: all 0.3s ease;
+  }
+  .section_four .container .s4_cards .s4_card:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 20px white;
+  }
+  .section_four .container .s4_cards .s4_card img {
+    width: 90%;
+    width: 340px;
+  }
+  footer .container .nbt {
+    width: 150px;
+  }
+  footer .container .footer_info h1 {
+    font-size: 29px;
+  }
+  footer .container .footer_info p {
+    font-size: 19px;
+  }
+  footer .container .end {
+    display: none;
+  }
 }/*# sourceMappingURL=main.css.map */
